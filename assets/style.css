@@ -2,3 +2,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.carousel-item img{
+    max-height: 900px;
+}
+.links{
+    text-decoration: none;
+}
+@media (max-width:425px){
+    .carousel-item img{
+        max-width: 425px;
+    }
+}
