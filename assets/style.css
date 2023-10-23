@@ -2,15 +2,28 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*  
+    -Coloca um limite na imagem do carrossel
+    -Ajustar caso o padrão da resolução mude
+*/
 .carousel-item img{
     max-height: 900px;
 }
+/*
+    -Impede que o texto dos card fique destacado como um link.
+*/
 .links{
     text-decoration: none;
 }
-@media (max-width:425px){
+
+/*
+    RESPONSIVIDADE
+*/
+@media (max-width:1200px){
     .carousel-item img{
-        max-width: 425px;
+        max-width: 1200px;
+    }
+    .locais{
+        justify-content: center!important;
     }
 }
