@@ -23,7 +23,7 @@ body {
     .carousel-item img{
         max-width: 1200px;
     }
-    .locais{
+    #locais{
         justify-content: center!important;
     }
 }
