@@ -27,8 +27,3 @@ body {
         justify-content: center!important;
     }
 }
-@media (max-width:1024px){
-    .lugar{
-        width: 100%!important;
-    }
-}
