@@ -26,4 +26,7 @@ body {
     #locais{
         justify-content: center!important;
     }
+    #lugar{
+        width: 100%!important;
+    }
 }

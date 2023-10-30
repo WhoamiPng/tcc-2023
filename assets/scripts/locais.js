@@ -76,7 +76,7 @@ function loadPlaces() {
                                     <h6 class="card-text mb-1">${locais[i].nome}</h5>
                                     <h6 class="card-subtitle pt-1 mb-3 text-muted">Estado: <strong>${locais[i].estado}</strong></h6>
                                     <div class="d-grid col-12 mx-auto">
-                                        <button class="btn btn-outline-success btn-lg" type="button" onclick="loadPage('${locais[i].nome}')">Saiba mais</button>
+                                        <button class="btn btn-outline-success btn-lg" type="button" onclick="loadPage('${locais[i].nome}')" data-bs-dismiss="modal">Saiba mais</button>
                                     </div>
                                 </div>
                             </div>`;
@@ -98,11 +98,14 @@ function loadPage(nome) {
             //Template de como printar o html.
             //Tem que testar melhores templates
             let template = `<div id="lugar" class="lugar container d-grid w-50 mb-2 mt-1">  
-                                <img src="assets/images/${locais[i].imagem}" class="img-fluid w-100 d-block mx-auto g-col-4 rounded" alt="${locais[i].nome}">
+                                <img src="assets/images/${locais[i].imagem}" class="img-fluid w-100 d-block mx-auto mb-2 g-col-4 rounded" alt="${locais[i].nome}">
                                 <div class="d-grid gap-2 col-6 mx-auto mt-1 ">
                                     <button class="btn btn-primary" onclick="fecharJanela('/index.html')">Fechar Janela</button>
                                 </div>
-                                <p class="text-center fs-1 d-block">${locais[i].nome}</p>
+                                <hr>
+                                <p class="text-bg-success text-center fs-1 d-block mb-0">${locais[i].nome}</p>
+                                <div id="descricao" class="text-bg-warning p-3">
+                                </div>
                             </div>`;
             const x = document.getElementById("demo");
             x.innerHTML = template;
@@ -113,7 +116,7 @@ function loadPage(nome) {
                 let node = document.createTextNode(locais[i]["descricao"][z]);
                 para.appendChild(node);
 
-                let element = document.getElementById("lugar");
+                let element = document.getElementById("descricao");
                 element.appendChild(para);
             }
         };
