@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fff;
+    color: #000;
+    transition:  background-color 0.5s, color 0.5s;
 }
 /*  
     -Coloca um limite na imagem do carrossel
@@ -30,3 +33,9 @@ body {
         width: 100%!important;
     }
 }
+ /*Eae man to dando umas mexidinhas ta ficando bala*/
+.night-mode{
+    background-color: #212121;
+    color: #fff;
+}
+

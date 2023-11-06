@@ -10,7 +10,7 @@
   <title>Passeios Starline - início</title>
 </head>
 
-<body onload="loadPlaces()">
+<body onload="loadPlaces()" >
   <!--HEADER-->
   <header class="sticky-top">
     <!--BARRA DE NAVEGAÇÃO-->
@@ -33,10 +33,13 @@
             </li>
             <li class="nav-item">
               <a class="nav-link disabled fs-5" aria-disabled="true">Compre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" aria-disabled="true" style="cursor: pointer;">Cadastre-se</a>
             </li> 
           </ul>
           <div class="d-flex py-2">
-             <img src="assets/icons/darkModeIcon.svg" width="10%" alt="Icon Dark mode">
+             <img src="assets/icons/darkModeIcon.svg" width="10%" alt="Icon Dark mode" onclick="night()" id="nightIcon" style="cursor: pointer;">
           </div>
         </div>
       </div>
@@ -167,6 +170,7 @@
   </script>
   
   <script src="assets/scripts/locais.js"></script>
+  <script src="assets/scripts/night.js"></script>
 </body>
 
 </html>
