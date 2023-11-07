@@ -68,7 +68,7 @@ const locais = [
         estado: "Bahia",
         nome: "Mercado Modelo",
         imagem: "bahia/mercado_modelo.jpg",
-        descricao: ""
+        descricao: "O Mercado Modelo é um mercado de artesanato localizado na cidade de Salvador, estado da Bahia, no Brasil. Foi inaugurado em 2 de fevereiro de 1912, e ocupa, desde 1971, o prédio da antiga Alfândega de Salvador."
     },
     {
         estado: "São Paulo",
