@@ -106,7 +106,7 @@ const estados = [
             {
                 nome: "Igreja Exaltação da Santa Cruz Matriz",
                 municipio: "Ubatuba",
-                imagem: "aleatorio/Igreja Exaltação da Santa Cruz Matriz..jpg.jpg",
+                imagem: "aleatorio/igrejaExaltacao.jpeg",
                 descricao: "A igreja matriz batalhense foi construída durante o reinado de D. Manuel I. A sua erecção, iniciada em 1514, resulta de um pedido dos habitantes da recém-criada vila e paróquia, pois a pequena igreja de Santa Maria-a-Velha já não comportava o número de fiéis da vila. A obra foi acabada em 1532, conforme inscrição no portal, mas a Confraria da Misericórdia da Batalha, à época dona do templo, ainda investiu avultadas somas, pelo menos até 1537, na conclusão do monumento."
             },
             {
